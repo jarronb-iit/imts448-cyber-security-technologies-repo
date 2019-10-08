@@ -1,4 +1,18 @@
+By: Jarron Bailey
+
 # Software Code & Threat Analysis Presentation
+
+## Table of Contents
+- [Software Code & Threat Analysis Presentation](#software-code--threat-analysis-presentation)
+  - [Table of Contents](#table-of-contents)
+  - [SWIG](#swig)
+    - [CWE's](#cwes)
+  - [MedKey](#medkey)
+    - [CWE's](#cwes-1)
+  - [Jahshaka](#jahshaka)
+    - [CWE's](#cwes-2)
+  
+---
 
 ## SWIG
 
@@ -24,6 +38,8 @@
 - **Title**: CWE-546: Suspicious Comment
 - **Description**: Many suspicious comments, such as BUG, HACK, FIXME, LATER, LATER2, TODO, in the code indicate missing security functionality and checking. Others indicate code problems that programmers should fix, such as hard-coded variables, error handling, not using stored procedures, and performance issues.
   - **Mitigation**: Remove comments that suggest the presence of bugs, incomplete functionality, or weaknesses, before deploying the application.
+  
+---
 
 ## MedKey
 
@@ -53,6 +69,8 @@
     2. If available, use structured mechanisms that automatically enforce the separation between data and code. These mechanisms may be able to provide the relevant quoting, encoding, and validation automatically, instead of relying on the developer to provide this capability at every point where output is generated.
     3. Understand the context in which your data will be used and the encoding that will be expected. This is especially important when transmitting data between different components, or when generating outputs that can contain multiple encodings at the same time, such as web pages or multi-part mail messages. Study all expected communication protocols and data representations to determine the required encoding strategies.
     4. Use input validation as a defense-in-depth measure to reduce the likelihood of output encoding errors (see CWE-20).
+
+---
 
 ## Jahshaka
 
