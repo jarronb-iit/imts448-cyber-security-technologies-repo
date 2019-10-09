@@ -19,6 +19,15 @@ By: Jarron Bailey
   - [MedKey](#medkey)
     - [CWE's](#cwes-1)
   - [Jahshaka](#jahshaka)
+
+    - [CWE's](#cwes-2)
+
+  - [Table of Contents](#table-of-contents)
+  - [SWIG](#swig)
+    - [CWE's](#cwes)
+  - [MedKey](#medkey)
+    - [CWE's](#cwes-1)
+  - [Jahshaka](#jahshaka)
     - [CWE's](#cwes-2)
 
 ---
@@ -53,7 +62,7 @@ By: Jarron Bailey
 
 ## MedKey
 
-- **Application Description**: Free professional hostpital information system. Based on modern web technologies and instruments (PHP7, JavaScript ES7, ReactJS) provide fast and scalable server-side and user-friendly UX/UI.
+- **Application Description**: Free professional hospital information system. Based on modern web technologies and instruments (PHP7, JavaScript ES7, ReactJS) provide fast and scalable server-side and user-friendly UX/UI.
 - **Application features**:
   - Electronic regisration: online appointment via website and other channels (social media and etc.)
   - Electronic Health Record (EHR)
@@ -98,7 +107,7 @@ By: Jarron Bailey
   - Custom Shaders and more&hellip;
   - Embedded Monero Miner
   - Physics
-- **SourceForge**: [https://sourceforge.net/projects/jahshaka/s](https://sourceforge.net/projects/jahshaka/s)
+- **SourceForge**: [https://sourceforge.net/projects/jahshaka/](https://sourceforge.net/projects/jahshaka/)
 - **Github**: [https://github.com/jahshaka/Studio/](https://github.com/jahshaka/Studio)
 - **Static code analysis software**: [Flawfinder](https://dwheeler.com/flawfinder/)
   ![Jahshaka alerts](images/jahshaka-numofalerts.png)
