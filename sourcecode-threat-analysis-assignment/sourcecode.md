@@ -3,6 +3,7 @@ By: Jarron Bailey
 # Software Code & Threat Analysis Presentation
 
 ## Table of Contents
+
 - [Software Code & Threat Analysis Presentation](#software-code--threat-analysis-presentation)
   - [Table of Contents](#table-of-contents)
   - [SWIG](#swig)
@@ -11,7 +12,15 @@ By: Jarron Bailey
     - [CWE's](#cwes-1)
   - [Jahshaka](#jahshaka)
     - [CWE's](#cwes-2)
-  
+
+  - [Table of Contents](#table-of-contents)
+  - [SWIG](#swig)
+    - [CWE's](#cwes)
+  - [MedKey](#medkey)
+    - [CWE's](#cwes-1)
+  - [Jahshaka](#jahshaka)
+    - [CWE's](#cwes-2)
+
 ---
 
 ## SWIG
@@ -37,8 +46,9 @@ By: Jarron Bailey
 - 546
 - **Title**: CWE-546: Suspicious Comment
 - **Description**: Many suspicious comments, such as BUG, HACK, FIXME, LATER, LATER2, TODO, in the code indicate missing security functionality and checking. Others indicate code problems that programmers should fix, such as hard-coded variables, error handling, not using stored procedures, and performance issues.
+
   - **Mitigation**: Remove comments that suggest the presence of bugs, incomplete functionality, or weaknesses, before deploying the application.
-  
+
 ---
 
 ## MedKey
@@ -50,7 +60,7 @@ By: Jarron Bailey
   - Personnel accounting and specialists load forecasting & planning
   - Inventory and expendable materials accounting
   - Client service quality control instruments
-- **SourceForge**: [https://sourceforge.net/projects/jahshaka/](https://sourceforge.net/projects/jahshaka/)
+- **SourceForge**: [https://sourceforge.net/projects/medkey/](https://sourceforge.net/projects/medkey/)
 - **Github**: [https://github.com/medkey-org/medkey](https://github.com/medkey-org/medkey)
 - **Static code analysis software**: [LGTM](https://lgtm.com/)
   ![MedKey alerts](images/medkey-numofalerts.png)
