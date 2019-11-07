@@ -2,8 +2,6 @@
 
 <h1 align="center">Physical Security Assignment</h1>
 
----
-
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
